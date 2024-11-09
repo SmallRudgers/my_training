@@ -11,5 +11,3 @@ print("Immutable tuple:",immutable_var)
 mutable_list = ([1, 2, 3, 4.5, 'Победа'], [2,1], 'tuples')
 mutable_list[0][4] = 9
 print("Mutable list:",mutable_list)
-
-
