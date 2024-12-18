@@ -51,29 +51,29 @@ class House:
         else:
             print('Такого этажа нет!')
 
-House_1 = House('ЖК Эльбрус', 10)
-House_2 = House('ЖК Акация', 20)
+house_1 = House('ЖК Эльбрус', 10)
+house_2 = House('ЖК Акация', 20)
 
-print(House_1)
-print(House_2,'\n')
+print(house_1)
+print(house_2,'\n')
 
 #__eq__ __ne__
-print(House_1 == House_2)
-print(House_1 != House_2,'\n')
+print(house_1 == house_2)
+print(house_1 != house_2,'\n')
 
 #__lt__ __gt__
-print(House_1 < House_2)
-print(House_1 > House_2,'\n')
+print(house_1 < house_2)
+print(house_1 > house_2,'\n')
 
 #__le__ __ge__
-print(House_1 <= House_2)
-print(House_1 >= House_2,'\n')
+print(house_1 <= house_2)
+print(house_1 >= house_2,'\n')
 
 #__add__ __radd__ __iadd__
-House_1 = House_1 + 10
-House_2 += 10
-print(House_1)
-print(House_1 == House_2)
+house_1 = house_1 + 10
+house_2 += 10
+print(house_1)
+print(house_1 == house_2)
 
 
 
